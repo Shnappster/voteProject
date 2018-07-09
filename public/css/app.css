@@ -10611,3 +10611,10 @@ h6,
   display: inline-block;
 }
 
+#vote_size {
+  width: 700px;
+  height: auto;
+  word-wrap: break-word;
+  display: -webkit-box;
+}
+

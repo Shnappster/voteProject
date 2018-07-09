@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\VoteFormRequest;
+use App\User;
 use App\Vote;
 
 class VoteController extends Controller

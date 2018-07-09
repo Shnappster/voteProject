@@ -8,7 +8,7 @@
 
         <hr>
 
-        <form method="POST" enctype="multipart/form-data" action="/votes">
+        <form method="POST" id="createVoteForm" enctype="multipart/form-data" action="/votes">
             {{csrf_field()}}
 
             <div class="form-group">

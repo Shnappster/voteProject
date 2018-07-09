@@ -24,4 +24,6 @@ class Vote extends Model
     {
         return env('APP_URL') . Storage::url(self::FOLDER . $this->attributes['file_name']);
     }
+
+
 }
