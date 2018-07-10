@@ -10,3 +10,5 @@ Route::post('/votes', 'VoteController@store');
 Route::get('/votes/{vote}', 'VoteController@show');
 
 Route::get('/users/{user}', 'UserController@show');
+
+Route::post('/votes/{vote}/answer', 'AnswerController@store');

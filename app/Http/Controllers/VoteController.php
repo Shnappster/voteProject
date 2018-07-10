@@ -48,7 +48,8 @@ class VoteController extends Controller
 
     public function show(Vote $vote)
     {
-        return view('vote.show', compact('vote'));
+        $positive = $vote->countPositiveAnswer();
+        $negative = $vote->countNegativeAnswer();
+        return view('vote.show', compact('vote', 'negative', 'positive'));
     }
-
 }
